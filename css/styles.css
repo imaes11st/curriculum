@@ -1,0 +1,53 @@
+a{
+    text-decoration: none;
+  }
+
+  .header {
+    background: url(../imagenes/fondo_blanco.png);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .menu {
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    height: 45px;
+    align-items: center;
+    border-bottom: 10px solid rgb(0, 0, 0);
+  }
+  .logo {
+    flex: 1 1 auto;
+  }
+  .logo a{
+    color: black;
+    font-size: 35px;
+    padding: 10px;
+  }
+  .nav {
+    flex: 6 1 auto;
+  }
+  .nav a{
+    color: black;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 3px;
+  }
+  .nav a:hover{
+    color: rgb(31, 31, 31);
+  }
+  .social {
+    flex: 1 1 auto;
+    display: flex;
+  }
+  .social a{
+    font-size: 19px;
+    color: black;
+    padding: 0 8px;
+  }
+  .social a:hover{
+    color: rgb(31, 31, 31);
+  }
