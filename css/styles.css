@@ -51,3 +51,19 @@ a{
   .social a:hover{
     color: rgb(31, 31, 31);
   }
+
+.tabla_educacion {
+  width: 80%;
+  border-color: black;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+th, td {
+  width: 25%;
+  border: 1px solid #000;
+}
+.segundo_titulo{
+  text-align: center;
+}
